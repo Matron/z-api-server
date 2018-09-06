@@ -26,7 +26,6 @@ export class Server {
         const port = process.env.PORT || 3002;
         app.listen(port);
         console.log("server running on " + port);
-        console.log("env: " + process.env.NODE_ENV);
     }
 }
 
